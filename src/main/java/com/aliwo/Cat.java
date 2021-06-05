@@ -17,4 +17,7 @@ public class Cat {
     public void hi() {
         System.out.println("hi" + name);
     }
+
+    public void hi2() {
+    }
 }
