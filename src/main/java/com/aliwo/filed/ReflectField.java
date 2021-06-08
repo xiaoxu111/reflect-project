@@ -37,8 +37,12 @@ public class ReflectField {
         //fieldPrivate.set(obj, "男 私有属性变量");
         // 静态变量第二种形式设置值 通过反射设置私有属性变量的值 静态变量 可以 null的形式
         fieldPrivate.set(null, "男 私有属性变量 null");
+        // 获取属性值 第一种方式
         Object fieldPrivateValue = fieldPrivate.get(obj);
+        // 获取属性值 第二种方式
+        Object fieldPrivateValue2 = fieldPrivate.get(null);
         System.out.println("fieldPrivateValue : " + fieldPrivateValue); //男 私有属性变量
+        System.out.println("fieldPrivateValue2 : " + fieldPrivateValue2); //男 私有属性变量
 
 
 
