@@ -9,11 +9,17 @@ public class Cat {
     public Integer age = 100;
     public String username = "xuyy";
     public String password = "12344";
+    String address;
+    protected String email;
 
     public Cat(){}
 
-    public Cat(String name) {
-        name = this.name;
+    public Cat(String username) {
+        this.username = username;
+    }
+    private Cat(String username, String password) {
+         this.username = username;
+         this.password = password;
     }
 
     public void hi() {
