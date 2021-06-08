@@ -11,6 +11,7 @@ public class Cat {
     public String password = "12344";
     String address;
     protected String email;
+    private static String sex;
 
     public Cat(){}
 
