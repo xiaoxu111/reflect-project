@@ -26,6 +26,13 @@ public class Cat {
     public void hi() {
         System.out.println("hi" + name);
     }
+    private void hi2(String username) {
+        System.out.println("username :" +username);
+    }
+    private static void hi3(String username, String password) {
+        System.out.println("username :" +username);
+        System.out.println("password :" +password);
+    }
 
     public void hi2() {
     }
